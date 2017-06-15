@@ -1,0 +1,22 @@
+<!--test_api.wxml-->
+<!--<text>test_api.wxml</text>-->
+<map id="myMap2" show-location
+style="width: 100%; height: {{hgt}};" 
+markers="{{markers}}"
+polyline="{{polyline}}" 
+latitude="{{latitude}}"
+longitude="{{longitude}}"
+bindtap="maptap" 
+scale="{{scale}}"
+include-points="{{inc_points}}"
+/>
+
+<button class="button1" type="primary" bindtap="getCenterLocation">获取位置</button>
+<button class="button1" type="primary" bindtap="moveToLocation">移动位置</button>
+<button class="button1" type="primary" bindtap="start_getLocation">getLocation</button>
+<button class="button1" type="primary">{{status}}</button>
+<button class="button1" type="primary" bindtap="start_setLocation">SetLocation</button>
+<button class="button1" type="primary" bindtap="clear_points">clear_points</button>
+<button class="button1" type="primary" bindtap="en_munual">{{en_munual}}</button>
+<button class="button1" type="primary" bindtap="cal_dist">{{dist}}</button>
+<button class="button1" type="primary" bindtap="cal_time">{{time}}</button>

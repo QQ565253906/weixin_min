@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/test_api/test_api",
+    "pages/createMapContext/createMapContext",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
