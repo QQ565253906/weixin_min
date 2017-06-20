@@ -16,7 +16,6 @@ var tempPolyline = [{
   "width": 3,
   "dottedLine": true
 }];
-
 Page({
   /**
    * 页面的初始数据
